@@ -62,3 +62,5 @@ C:\Users\Shaker\Desktop\Test\TestTask\TestTask\bin\DALLayer.pdb
 C:\Users\Shaker\Desktop\Test\TestTask\TestTask\bin\DALLayer.dll.config
 C:\Users\Shaker\Desktop\Test\TestTask\TestTask\bin\AjaxControlToolkit.dll
 C:\Users\Shaker\Desktop\Test\TestTask\TestTask\bin\itextsharp.dll
+C:\Users\Shaker\Desktop\Test\TestTask\TestTask\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Shaker\Desktop\Test\TestTask\TestTask\bin\Microsoft.AspNet.FriendlyUrls.xml

@@ -49,6 +49,9 @@
     <Reference Include="itextsharp">
       <HintPath>..\..\..\Blanche\Blanche\bin\itextsharp.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -111,17 +114,23 @@
     <Content Include="AdminStyle\js\plugins\morris\raphael.min.js" />
     <Content Include="AdminStyle\js\sb-admin-2.js" />
     <Content Include="default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="TaskList.aspx" />
     <Content Include="TaskManage.aspx" />
+    <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="master.Master.cs">
       <DependentUpon>master.Master</DependentUpon>
@@ -131,6 +140,13 @@
       <DependentUpon>master.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
     <Compile Include="TaskList.aspx.cs">
       <DependentUpon>TaskList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,6 +160,13 @@
     </Compile>
     <Compile Include="TaskManage.aspx.designer.cs">
       <DependentUpon>TaskManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +208,7 @@
     <Content Include="AdminStyle\less\variables.less" />
     <Content Include="master.Master" />
     <None Include="packages.config" />
+    <Content Include="Site.Mobile.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

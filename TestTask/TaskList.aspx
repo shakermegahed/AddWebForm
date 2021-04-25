@@ -13,6 +13,7 @@
             $('#dataTables-example').dataTable();
         });
     </script>
+    <%@ Import Namespace="Microsoft.AspNet.FriendlyUrls"%> 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div class="row">
