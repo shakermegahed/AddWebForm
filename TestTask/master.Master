@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="TestTask.master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+
+    <title>WebSite</title>
+    <link href="/AdminStyle/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/AdminStyle/css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet" />
+    <link href="/AdminStyle/css/plugins/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="/AdminStyle/css/sb-admin-2.css" rel="stylesheet" />
+    <link href="/AdminStyle/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <script src="/AdminStyle/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/AdminStyle/js/bootstrap.min.js"></script>
+
+    <script src="AdminStyle/ckeditor/ckeditor.js"></script>
+    <script src="/AdminStyle/js/plugins/metisMenu/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="/AdminStyle/js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="/AdminStyle/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/AdminStyle/js/sb-admin-2.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115567103-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115567103-1');
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="form-horizontal">
+        <div id="wrapper">
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- /.navbar-header -->
+
+
+
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <a class="navbar-brand" href="/System/Dashborad.aspx">
+                            <img alt="" src="../images/website/small-logo.png" style="width: 90%" /></a>
+                        <ul class="nav" id="side-menu" style="margin-top: 50%;">
+                            <li>
+                                <a id="menuDashboard" runat="server" href="/System/Dashborad.aspx"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+                            </li>
+                            <li id="LiWebSite" runat="server" class="active">
+                                <a href="#">
+                                    <i class="fa fa-sitemap fa-fw"></i>Content Management<span class="fa arrow"></span>
+                                </a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a id="Apage" runat="server" href="TaskList.aspx">Tasks</a>
+                                    </li>
+                                  
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.sidebar-collapse -->
+                </div>
+                <!-- /.navbar-static-side -->
+            </nav>
+
+            <!-- Page Content -->
+            <div id="page-wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+        <!-- /#wrapper -->
+        <!-- jQuery Version 1.11.0 -->
+
+
+        <!-- Metis Menu Plugin JavaScript -->
+
+
+        <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+        <script>
+            $(document).ready(function () {
+                $('#dataTables-example').dataTable();
+            });
+        </script>
+    </form>
+</body>
+</html>

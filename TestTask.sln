@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask", "TestTask\TestTask.csproj", "{5A80D19B-51B8-46BD-9BA1-9EC972F756BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALLayer", "DALLayer\DALLayer.csproj", "{5EF4531F-C11A-460F-BB82-0A4B86C22A7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A80D19B-51B8-46BD-9BA1-9EC972F756BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A80D19B-51B8-46BD-9BA1-9EC972F756BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A80D19B-51B8-46BD-9BA1-9EC972F756BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A80D19B-51B8-46BD-9BA1-9EC972F756BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF4531F-C11A-460F-BB82-0A4B86C22A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF4531F-C11A-460F-BB82-0A4B86C22A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF4531F-C11A-460F-BB82-0A4B86C22A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF4531F-C11A-460F-BB82-0A4B86C22A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D793FD-C223-4295-8C84-02A6AA50ACC1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\Shaker\Desktop\Test\TestTask\DALLayer\obj\Debug\DALLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shaker\Desktop\Test\TestTask\DALLayer\bin\Debug\DALLayer.dll.config
+C:\Users\Shaker\Desktop\Test\TestTask\DALLayer\bin\Debug\DALLayer.dll
+C:\Users\Shaker\Desktop\Test\TestTask\DALLayer\bin\Debug\DALLayer.pdb
+C:\Users\Shaker\Desktop\Test\TestTask\DALLayer\obj\Debug\DALLayer.dll
+C:\Users\Shaker\Desktop\Test\TestTask\DALLayer\obj\Debug\DALLayer.pdb
+C:\Users\Shaker\Desktop\Test\TestTask\DALLayer\obj\Debug\DALLayer.csprojAssemblyReference.cache
